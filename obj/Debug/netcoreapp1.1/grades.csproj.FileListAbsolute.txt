@@ -1,0 +1,8 @@
+C:\source\lang\csharp\grades\bin\Debug\netcoreapp1.1\grades.deps.json
+C:\source\lang\csharp\grades\bin\Debug\netcoreapp1.1\grades.runtimeconfig.json
+C:\source\lang\csharp\grades\bin\Debug\netcoreapp1.1\grades.runtimeconfig.dev.json
+C:\source\lang\csharp\grades\bin\Debug\netcoreapp1.1\grades.dll
+C:\source\lang\csharp\grades\bin\Debug\netcoreapp1.1\grades.pdb
+C:\source\lang\csharp\grades\obj\Debug\netcoreapp1.1\grades.AssemblyInfo.cs
+C:\source\lang\csharp\grades\obj\Debug\netcoreapp1.1\grades.dll
+C:\source\lang\csharp\grades\obj\Debug\netcoreapp1.1\grades.pdb
