@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\lang\\csharp\\grades\\grades.csproj",
+      "projectUniqueName": "c:\\source\\lang\\csharp\\csharp-gradebook\\grades.csproj",
       "projectName": "grades",
-      "projectPath": "C:\\source\\lang\\csharp\\grades\\grades.csproj",
-      "outputPath": "C:\\source\\lang\\csharp\\grades\\obj\\",
+      "projectPath": "c:\\source\\lang\\csharp\\csharp-gradebook\\grades.csproj",
+      "outputPath": "c:\\source\\lang\\csharp\\csharp-gradebook\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/grades.dll": "C:\\source\\lang\\csharp\\grades\\bin\\placeholder\\netcoreapp1.1\\grades.dll"
+        "lib/netcoreapp1.1/grades.dll": "c:\\source\\lang\\csharp\\csharp-gradebook\\bin\\placeholder\\netcoreapp1.1\\grades.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
