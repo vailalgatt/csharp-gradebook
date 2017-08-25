@@ -11,7 +11,7 @@ namespace Grades
     {
         static void Main(string[] args)
         {
-            SpeechSynthesizer
+            // SpeechSynthesizer
 
             GradeBook book = new GradeBook();
             book.AddGrade(91);
