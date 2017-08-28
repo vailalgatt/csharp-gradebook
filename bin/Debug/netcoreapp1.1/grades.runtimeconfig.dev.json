@@ -1,6 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+      "C:\\Users\\vail\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\vail\\.nuget\\packages"
     ]
   }

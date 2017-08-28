@@ -14,3 +14,5 @@ C:\source\lang\csharp\csharp-gradebook\bin\Debug\netcoreapp1.1\grades.pdb
 C:\source\lang\csharp\csharp-gradebook\obj\Debug\netcoreapp1.1\grades.AssemblyInfo.cs
 C:\source\lang\csharp\csharp-gradebook\obj\Debug\netcoreapp1.1\grades.dll
 C:\source\lang\csharp\csharp-gradebook\obj\Debug\netcoreapp1.1\grades.pdb
+C:\source\lang\csharp\csharp-gradebook\obj\Debug\netcoreapp1.1\grades.csproj.CoreCompileInputs.cache
+C:\source\lang\csharp\csharp-gradebook\obj\Debug\netcoreapp1.1\grades.AssemblyInfoInputs.cache

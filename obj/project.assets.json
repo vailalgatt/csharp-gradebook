@@ -2076,9 +2076,6 @@
           }
         }
       },
-      "System.Speech.dll/1.0.4": {
-        "type": "package"
-      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6562,21 +6559,6 @@
         "system.security.principal.windows.nuspec"
       ]
     },
-    "System.Speech.dll/1.0.4": {
-      "sha512": "XC1rW0vLDpQe2/Yi+ObTr2qBRQsqKtW82JulK6j4Sgb35E17Z2M82pJnd31gPPWAxNm4Qp9ztpXejzbvDt0evQ==",
-      "type": "package",
-      "path": "system.speech.dll/1.0.4",
-      "files": [
-        "Program.cs",
-        "Program.exe",
-        "lib/dnxcore50/lib/System.Speech.dll",
-        "lib/netcoreapp1.0/lib/System.Speech.dll",
-        "project.json",
-        "project.lock.json",
-        "system.speech.dll.1.0.4.nupkg.sha512",
-        "system.speech.dll.nuspec"
-      ]
-    },
     "System.Text.Encoding/4.3.0": {
       "sha512": "0u/iv5H7t3EaFCu6WDw2OkbenE4DrVGbuDaTFucQk3yfiSOHy5uDHQmtwPACX+wsK/tvRauQPV8+6wYHztf3aw==",
       "type": "package",
@@ -7460,8 +7442,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "Microsoft.NETCore.App >= 1.1.2",
-      "Newtonsoft.Json >= 10.0.3",
-      "System.Speech.dll >= 1.0.4"
+      "Newtonsoft.Json >= 10.0.3"
     ]
   },
   "packageFolders": {
@@ -7470,11 +7451,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\source\\lang\\csharp\\csharp-gradebook\\grades.csproj",
+      "projectUniqueName": "C:\\source\\lang\\csharp\\csharp-gradebook\\grades.csproj",
       "projectName": "grades",
-      "projectPath": "c:\\source\\lang\\csharp\\csharp-gradebook\\grades.csproj",
+      "projectPath": "C:\\source\\lang\\csharp\\csharp-gradebook\\grades.csproj",
       "packagesPath": "C:\\Users\\vail\\.nuget\\packages\\",
-      "outputPath": "c:\\source\\lang\\csharp\\csharp-gradebook\\obj\\",
+      "outputPath": "C:\\source\\lang\\csharp\\csharp-gradebook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vail\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7508,24 +7489,9 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "10.0.3"
-          },
-          "System.Speech.dll": {
-            "target": "Package",
-            "version": "1.0.4"
           }
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package System.Speech.dll 1.0.4 is not compatible with netcoreapp1.1 (.NETCoreApp,Version=v1.1). Package System.Speech.dll 1.0.4 supports:\r\n  - dnxcore50 (DNXCore,Version=v5.0)\r\n  - netcoreapp1.0 (.NETCoreApp,Version=v1.0)",
-      "libraryId": "System.Speech.dll",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v1.1"
-      ]
-    }
-  ]
+  }
 }
