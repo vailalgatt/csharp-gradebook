@@ -15,18 +15,26 @@ namespace Grades
 
         public GradeStatistics ComputeStatistics()
         {
-            GradeStatistics stats =  new GradeStatistics();
-            
+            GradeStatistics stats = new GradeStatistics();
+
 
             float sum = 0;
-            foreach(float grade in grades)
+            foreach (float grade in grades)
             {
                 stats.HighestGrade = Math.Max(grade, stats.HighestGrade);
                 stats.LowestGrade = Math.Min(grade, stats.LowestGrade);
                 sum += grade;
             }
+
             stats.AverageGrade = sum / grades.Count;
             return stats;
+        }
+
+        public string UserInput()
+        {
+            System.Console.WriteLine("Press Enter to View the Highest, Lowest, And Average grades in your gradebook");
+            string input = Console.ReadLine();
+            return input;
         }
 
         public void AddGrade(float grade)

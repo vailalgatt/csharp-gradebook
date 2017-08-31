@@ -12,8 +12,9 @@ namespace Grades
         static void Main(string[] args)
         {
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\n-------------------Welcome to the gradebook project-----------------------\n");
+
 
 
             // SpeechSynthesizer synth = new SpeechSynthesizer();
@@ -27,6 +28,11 @@ namespace Grades
             book.AddGrade(85);
             book.AddGrade(95);
             book.AddGrade(54);
+
+            string userChoice = book.UserInput().ToLower();
+            string[] userAction = userChoice.Split(' ');
+//will add some options to this area!!!!!!!!
+
 
             GradeStatistics stats = book.ComputeStatistics();
 
