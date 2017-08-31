@@ -11,8 +11,10 @@ namespace Grades
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the gradebook project");
-            //Console.BackgroundColor();
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("\n-------------------Welcome to the gradebook project-----------------------\n");
+
 
             // SpeechSynthesizer synth = new SpeechSynthesizer();
             // synth.Speak("Welcome to the gradebook project!");
@@ -23,8 +25,19 @@ namespace Grades
             book.AddGrade(75);
 
             GradeStatistics stats = book.ComputeStatistics();
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Here's the averages for your grades: ");
             Console.WriteLine(stats.AverageGrade);
+            Console.WriteLine("");
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Here's the highest grade: ");
             Console.WriteLine(stats.HighestGrade);
+            Console.WriteLine("");
+
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Here's the lowest grade: ");
             Console.WriteLine(stats.LowestGrade);
         }
     }
