@@ -11,6 +11,9 @@ namespace Grades
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the gradebook project");
+            //Console.BackgroundColor();
+
             // SpeechSynthesizer synth = new SpeechSynthesizer();
             // synth.Speak("Welcome to the gradebook project!");
 
