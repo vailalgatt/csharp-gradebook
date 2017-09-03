@@ -13,7 +13,7 @@ namespace Grades
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("\n-------------------Welcome to the gradebook project-----------------------\n");
+            Console.WriteLine("\n-------------------Welcome to the gradebook project-----------------------------\n");
 
 
 
