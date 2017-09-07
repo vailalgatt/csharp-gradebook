@@ -7,11 +7,11 @@ using Grades.Gradebook;
 
 namespace Grades
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Gradebook.GradeBook gradebook = new GradeBook.GradeBook();
+            Gradebook.Grades gradebook = new GradeBook.Grades();
             gradebook.Running = true;
 
             gradebook.Setup();
@@ -36,10 +36,14 @@ namespace Grades
                 {
                     gradebook.Help();
                 }
-                else if (userAction[0] == "i" || userAction[0] == "inventory")
+                else if (userAction[0] == "g" || userAction[0] == "give")
                 {
-                    System.Console.WriteLine("Inventory");
-                    gradebook.CurrentPlayer.ShowInventory(gradebook.CurrentPlayer);
+                    gradebook.Give(userAction[1]);
+                }
+                else if (userAction[0] == "i" || userAction[0] == "gradebook")
+                {
+                    System.Console.WriteLine("Gradebook");
+                    gradebook.CurrentPlayer.ShowGradebook(gradebook.CurrentPlayer);
                 }
                 else if (userAction[0] == "q" || userAction[0] == "quit")
                 {
